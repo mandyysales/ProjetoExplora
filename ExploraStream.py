@@ -1,6 +1,6 @@
 import io
 import picamera 
-from flask import                                                                                              Flask, Response
+from flask import Flask, Response                                                               
                                                                                                                                                                                                              
 app = Flask(__name__)
 
