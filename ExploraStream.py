@@ -16,7 +16,7 @@ def generate_frames():
 			stream.seek(0)
 			stream.trucate()
                                         
-@app.routel('/vido_feed')
+@app.routel('/video_feed')
 def video_feed():                                                                                                      
 	return Response(genarate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
